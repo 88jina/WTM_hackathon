@@ -6,9 +6,13 @@ import "./Navigation.css";
 function Navigation() {
     return (
         <div className="nav">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            <div className="name"> BLACK<span className="green">GREEN</span></div>
+           
+            <div className="navList">
+            <Link to="/">Home </Link>
+            <Link to="/about">About  </Link>
             <Link to="/brand">Brand</Link>
+            </div>
         </div>
     );
 
