@@ -1,21 +1,37 @@
 .about__container {
-  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3),
-    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   padding: 20px;
   border-radius: 5px;
   background-color: white;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 15%;
+  margin-left: 35%;
   width: 100%;
-  max-width: 400px;
+  max-width: 1000px;
   font-weight: 300;
+  font-family: "나눔스퀘어OTF_ac ExtraBold";
+  display: block;
 }
 
-.about__container span:first-child {
+#about {
+  font-family: "나눔스퀘어OTF_ac ExtraBold";
+  display: block;
+  font-size: 50px;
+}
+#first {
+  font-family: "나눔스퀘어OTF_ac ExtraBold";
+  display: block;
   font-size: 20px;
 }
-
-.about__container span:last-child {
+#second {
+  font-family: "나눔스퀘어OTF_ac ExtraBold";
   display: block;
-  margin-top: 10px;
+  font-size: 30px;
+}
+
+#third {
+  font-family: "나눔스퀘어OTF_ac ExtraBold";
+  display: block;
+  font-size: 20px;
 }

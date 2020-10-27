@@ -3,7 +3,6 @@ import { HashRouter,Route } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/About";
 import BrandList from "./routes/BrandList";
-import Detail from "./routes/Detail";
 import Navigation from "./components/Navigation";
 
 function App() {

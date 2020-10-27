@@ -1,0 +1,27 @@
+html {
+  background: url(back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.container {
+  margin-top: 40%;
+  margin-left: 40%;
+  color: white;
+  font-family: "나눔스퀘어OTF_ac ExtraBold";
+  display: block;
+  max-width: 1500px;
+}
+
+#blackgreen {
+  display: block;
+  font-size: 50px;
+}
+#desc1 {
+  display: block;
+  font-size: 30px;
+}
