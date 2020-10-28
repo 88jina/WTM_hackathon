@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './Brand.css';
 
 
-function Brand(id,name,desc,homepage,image) {
+function Brand({ id, name, desc, homepage, image }) {
   return (
     <Link to={{
       pathname: `/brand/${id}`,
