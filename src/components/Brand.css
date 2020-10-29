@@ -7,7 +7,12 @@
   padding: 20px;
   border-radius: 5px;
   color: #adaeb9;
-  /* overflow: auto; */
+  overflow: hidden;
+}
+
+.brand__data {
+  width: 100px;
+  height: 200px;
 }
 
 /* .brand__list .brand a {
@@ -16,9 +21,4 @@
   grid-gap: 20px;
   text-decoration: none;
   color: inherit;
-} */
-
-/* .brand img {
-  width: auto;
-  height: 100px;
 } */

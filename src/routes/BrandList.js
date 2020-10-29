@@ -32,7 +32,7 @@ class BrandList extends Component{
   render() {
     const { isLoading, brandList } = this.state;
     return (
-      <section className="container">
+      <section className="brand__container">
       {isLoading ? (
         <div className="loader">
           <span className="loader__text">Loading...</span>
@@ -44,8 +44,7 @@ class BrandList extends Component{
                   key={result.id}
                   name={result.name}
                   description={result.description}
-                  homepage={result.hompage}
-                  image={result.image}
+                  homepage={result.homepage}
                 />
               ))}
         </div>

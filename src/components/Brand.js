@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './Brand.css';
 
 
-function Brand({ id, name, description, homepage, image }) {
+function Brand({ id, name, description, homepage }) {
   return (
     <Link to={{
       pathname: `/brand/${id}`,
@@ -13,15 +13,14 @@ function Brand({ id, name, description, homepage, image }) {
         name,
         description,
         homepage,
-        image,
       }
       }}>
       <div className="brand">
-          <img src={image} alt={name} title={name}/>
+          {/* <img src={image} alt={name} title={name}/> */}
           <div className="brand__data">
             <h3 className="brand__name" key={id}>{name}</h3>
             <h5 className="brand__desc">{description}</h5>
-                <p className="brand__homepage">{homepage}</p>
+                <h5 className="brand__homepage">{homepage}</h5>
         </div>
       </div>
      </Link>
