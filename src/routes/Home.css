@@ -1,6 +1,7 @@
 * {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -15,11 +16,18 @@ body {
 #root {
   width: 100%;
   height: 100%;
+}
+
+.wrap {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
   background-image: url('./bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 .container {
   display: flex;
@@ -33,17 +41,24 @@ body {
 .home__title {
   margin: auto;
   width: 800px;
-  height: 200px;
+  height: 300px;
   text-align: center;
 }
 
 h1 {
-  font-size: 60px;
-  font-weight: 500;
+  font-size: 55px;
+  font-weight: 600;
   color: rgb(4, 4, 74);
 }
 
-h3 {
-  font-size: 20px;
+h4 {
+  font-size: 30px;
   font-weight: 100;
+  columns: #f3f3f3;
+}
+
+span {
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(15, 81, 140);
 }

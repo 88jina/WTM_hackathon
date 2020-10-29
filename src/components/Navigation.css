@@ -1,47 +1,29 @@
-/* .nav {
-  z-index: 1;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  display: flex;
-  float: right;
-  flex-direction: row;
-  /* background-color: white; */
-
-/*
-@media screen and (max-width: 1200px) {
-  .nav {
-    left: initial;
-    top: initial;
-    bottom: 0px;
-    width: 100%;
-  }
-}*/
-/* .name {
-  font-family: '나눔스퀘어OTF_ac ExtraBold';
-  font-size: 20px;
-}
-.green {
-  font-family: '나눔스퀘어OTF_ac ExtraBold';
-  color: #fff;
-}
-.navList {
-  position: fixed;
-  right: 70px;
-} */
 .nav {
   padding-top: 50px;
-  padding-left: 80%;
+  padding-left: 70%;
 }
 .nav a {
-  text-decoration: none;
+  position: relative;
   color: #fff;
-  padding: 20px;
-  /* font-family: '나눔스퀘어OTF_ac ExtraBold'; */
+  padding: 30px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 40px;
 }
-
-/* .nav a:not(:last-child) {
-  margin-bottom: 20px;
-} */
+.nav a::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  line-height: 40px;
+  content: attr(title);
+  border-bottom: 0.5px solid #fff;
+  max-width: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.nav a:hover::after {
+  max-width: 100%;
+  font-weight: 600;
+}

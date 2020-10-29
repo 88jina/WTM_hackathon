@@ -43,7 +43,7 @@ class BrandList extends Component{
                 <Brand
                   key={result.id}
                   name={result.name}
-                  desc={result.desc}
+                  description={result.description}
                   homepage={result.hompage}
                   image={result.image}
                 />

@@ -6,8 +6,8 @@ class Home extends React.Component {
     return (
       <section className='container'>
         <div className="home__title">
-          <h1>#ZEROWASTE</h1>
-          <h3>버려진 플라스틱에 새로운 생명을 불어넣은 패션 기업들</h3>
+          <h1># Z E R O W A S T E</h1>
+          <h4>Do you know <span>sustainable</span> fashion?</h4>
         </div>
       </section>
     );
