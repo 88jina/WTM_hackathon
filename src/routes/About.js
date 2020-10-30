@@ -4,7 +4,7 @@ import './About.css';
 function About() {
     return (
       <section className="about__container">
-        <h1 className="about__title">it's time to quit the fast fashion system !</h1>
+        <h1 className="about__title">It's time to quit the fast fashion system !</h1>
         <div className="about__content">
           <p>
             현재 지구의 바다에는 1억 6,500만 톤의 플라스틱 쓰레기가 있는 것으로 알려져 있습니다. <br/>

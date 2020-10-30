@@ -1,5 +1,4 @@
 import React, { Component }from 'react';
-// import axios from 'axios';
 import Brand from '../components/Brand';
 import "./BrandList.css";
 
@@ -8,18 +7,7 @@ class BrandList extends Component{
     isLodaing: true,
     brandList:[]
     }
-  // getData= async () => {
-  //   try {
-  //     const result = await axios.get('dummy.json');
-  //     this.setState({ brandList:result, isLoading: false });
-  //     console.log('data :'+ result);
-  //   }
-  //   catch (error) {
-  //     console.log(error);
-  //   }
-  // }
   componentDidMount() {
-    // this.getData();
     fetch('dummy.json')
       .then(function (result) {
         return result.json();

@@ -16,7 +16,7 @@
   left: 0;
   width: 100%;
   height: 70px;
-  line-height: 40px;
+  line-height: 30px;
   content: attr(title);
   border-bottom: 0.5px solid #fff;
   max-width: 0;
@@ -25,5 +25,4 @@
 }
 .nav a:hover::after {
   max-width: 100%;
-  font-weight: 600;
 }
