@@ -18,9 +18,9 @@ function Brand({ id, name, description, homepage }) {
       <div className="brand">
           {/* <img src={image} alt={name} title={name}/> */}
           <div className="brand__data">
-            <h3 className="brand__name" key={id}>{name}</h3>
-            <h5 className="brand__desc">{description}</h5>
-                <h5 className="brand__homepage">{homepage}</h5>
+            <p className="brand__name" key={id}>{name}</p>
+            <p className="brand__homepage">{homepage}</p>
+            <p className="brand__desc">{description}</p>
         </div>
       </div>
      </Link>
