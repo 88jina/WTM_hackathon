@@ -7,13 +7,15 @@
 }
 
 html,
-body,
-header {
+body {
   width: 100%;
   height: 100%;
   margin: auto;
 }
-
+header {
+  width: 100%;
+  height: 90px;
+}
 #root {
   width: 100%;
   height: 100%;
